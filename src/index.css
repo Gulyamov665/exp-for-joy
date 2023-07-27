@@ -30,7 +30,6 @@ code {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /* background-color: rgba(0, 0 , 0, 0.8); */
 }
 
 @media (max-width: 1100px) {

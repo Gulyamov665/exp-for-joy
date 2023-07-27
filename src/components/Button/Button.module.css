@@ -13,7 +13,7 @@
 
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
-  background-color: #F8E9A1;
+  background-color: #6cc8ff;
   width: 210px;
   height: 40px;
   display: grid;
@@ -24,7 +24,7 @@
 }
 
 .div1:hover {
-  background-color: #24305E;
+  background-color: #092391;
   transition: 0.5s;
 }
 

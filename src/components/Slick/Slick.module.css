@@ -1,0 +1,39 @@
+button {
+  width: 100px;
+  height: 50px;
+  background-color: #6cc8ff;
+  color: white;
+}
+
+
+.custom {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .custom {
+    width: 600px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom {
+    width: 400px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .custom {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .custom {
+    width: 300px;
+  }
+}

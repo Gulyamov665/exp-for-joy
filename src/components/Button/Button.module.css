@@ -13,7 +13,7 @@
 
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
-  background-color: #17252A;
+  background-color: #F8E9A1;
   width: 210px;
   height: 40px;
   display: grid;
@@ -30,7 +30,7 @@
 
 .text_menu {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Josefin Sans', sans-serif !important;
   font-size: 15px;
   font-weight: 400;

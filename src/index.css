@@ -42,7 +42,7 @@ code {
 
 .main {
   background-color: #e7f6ff;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 30px 30px 30px 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;

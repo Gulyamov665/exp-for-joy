@@ -22,11 +22,10 @@ html {
   background-repeat: no-repeat;
   background-position: bottom center;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: -webkit-background-size;
+  -moz-osx-font-smoothing: grayscale;
   background: url('../public/img/adras2.jpg');
   background-color: #374785;
   background-size: cover;
-  -webkit-background-size: cover;
   filter: blur(8px);
   opacity: 1;
   z-index: -1;

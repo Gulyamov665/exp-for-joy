@@ -4,14 +4,24 @@ import { ReactComponent as Heart } from './img/heart.svg'
 
 function Card(props) {
   const [like, setLike] = useState(true)
+  const [img, setImg] = useState(true)
 
   const onClickLike = () => {
     setLike(!like)
   }
+
+  const onClickImg = () => {
+    setImg(!img)
+  }
   return (
     <div className={styles.card}>
       <div className={styles.div3}>
-        <img className={styles.content} src={props.img} alt="content" />
+        <img
+          onClick={onClickImg}
+          className={img ? styles.content : styles.imgFull}
+          src={props.img}
+          alt="content"
+        />
         <p>{props.title}</p>
         <div className={styles.grid}>
           <b>{props.price} UZS</b>
@@ -22,8 +32,6 @@ function Card(props) {
               <Heart className={styles.fill} width={30} height={30} />
             )}
           </div>
-
-          
         </div>
       </div>
     </div>

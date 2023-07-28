@@ -41,6 +41,8 @@ code {
 }
 
 .main {
+  background-color: #e7f6ff;
+  border-radius: 50px 50px 50px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;

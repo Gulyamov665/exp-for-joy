@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Pattaya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Cormorant+Infant:ital,wght@1,600&family=Exo+2:ital,wght@1,500&family=Kelly+Slab&display=swap');
+
 
 .card {
   display: grid;
@@ -31,8 +32,8 @@
   display: grid;
   justify-items: center;
   width: 350px;
-  background-color: white;
-  border-radius: 20px 20px 40px 40px;
+  background-color: #f5fffa;
+  border-radius: 175px 175px 40px 40px;
   padding: 10px 10px 20px 10px;
   -webkit-box-shadow: 2px 10px 12px 1px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 2px 10px 12px 1px rgba(34, 60, 80, 0.2);
@@ -58,12 +59,13 @@
 }
 
 .content {
-  width: 100%;
-  height: 290px;
+  width: 340px;
+  height: 340px;
   object-fit: cover;
   transition: all 0.3s ease-in-out;
   position: relative;
-  border-radius: 20px 20px 0 0;
+  /* border-radius: 20px 20px 0 0; */
+  border-radius: 50%;
   transition: 0.3s ease-in-out;
 }
 
@@ -83,7 +85,7 @@ p {
   padding: 30px 0 5px 0;
   margin-block-start: 0;
   margin-block-end: 0;
-  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Belotta', sans-serif;
   font-weight: 500;
   font-size: 20px;
   text-align: center;

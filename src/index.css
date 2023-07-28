@@ -25,7 +25,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   background: url('../public/img/adras2.jpg');
   background-color: #374785;
-  backdrop-filter: blur(8px);
+  background-size: cover;
+  filter: blur(8px);
   opacity: 1;
   z-index: -1;
 }

@@ -7,6 +7,7 @@ import Test from './components/Testi/Test'
 function App() {
   return (
     <div className="App">
+      <div className='bg_fixed'></div>
       <Header />
       <div>
         <Intro />

@@ -1,0 +1,58 @@
+{
+  "salads": [
+    {
+      "id": 1,
+      "name": "Shakar Ob",
+      "price": 30000,
+      "img": "./img/menu/salads/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Crispy eggplants with cherry tomatoes",
+      "price": 40000,
+      "img": "./img/menu/salads/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Eggplant rolls",
+      "price": 45000,
+      "img": "./img/menu/salads/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken fillet in orange sauce",
+      "price": 40000,
+      "img": "./img/menu/salads/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Greek salad",
+      "price": 45000,
+      "img": "./img/menu/salads/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Spring Bukhara",
+      "price": 35000,
+      "img": "./img/menu/salads/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Caesar salad",
+      "price": 50000,
+      "img": "./img/menu/salads/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mix salad with tongue",
+      "price": 55000,
+      "img": "./img/menu/salads/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Okroshka meat",
+      "price": 20000,
+      "img": "./img/menu/salads/9.jpg"
+    }
+  ]
+}

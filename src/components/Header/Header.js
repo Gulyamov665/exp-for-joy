@@ -17,8 +17,8 @@ function Header() {
 
   return (
     <div className={styles.navbar}>
-      <h4>Joy Chaikhana</h4>
-      <div style={{ display: 'flex', alignItems: 'center', marginRight: 15 }}>
+      <h4 className={styles.logo}>Joy Chaikhana</h4>
+      <div style={{ display: 'flex', alignItems: 'center', marginRight: 10 }}>
         <div className={styles.contact}>
           <h4>About</h4>
           <h4>Contacts</h4>
@@ -31,7 +31,6 @@ function Header() {
                 : styles.selected_lang_ru
             }
           >
-            {/* {language === 'en' ? 'English' : 'Русский'} */}
           </div>
           <ul style={dropDown ? { display: 'block' } : { display: 'none' }}>
             <li>

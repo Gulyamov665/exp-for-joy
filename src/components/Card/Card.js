@@ -22,15 +22,19 @@ function Card(props) {
         <img src={imgSrc} alt="content" />
         <CloseIcon onClick={() => setModel(false)} />
       </div>
-
       <div className={styles.card}>
-        <div className={styles.div3}>
+        <div className={styles.div1}>
+          <img className={styles.back} src="./img/card.png" alt="card" />
+        </div>
+        <div className={styles.div2}>
           <img
-            onClick={() => onClickImg(props.img)}
             className={styles.content}
+            onClick={() => onClickImg(props.img)}
             src={props.img}
             alt="content"
           />
+        </div>
+        <div className={styles.div3}>
           <p>{props.title}</p>
           <div className={styles.grid}>
             <b>{props.price} UZS</b>

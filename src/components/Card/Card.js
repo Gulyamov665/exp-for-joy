@@ -35,7 +35,8 @@ function Card(props) {
           />
         </div>
         <div className={styles.div3}>
-          <p>{props.title}</p>
+          <p>{props.title}</p><br />
+          <b style={{textAlign: 'center'}}>{props.desc}</b>
           <div className={styles.grid}>
             <b>{props.price} UZS</b>
             <div className={styles.heart} onClick={onClickLike}>

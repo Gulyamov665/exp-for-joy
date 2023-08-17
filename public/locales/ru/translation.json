@@ -1,58 +1,484 @@
 {
+  "salad": "Салаты",
+  "appetaizer": "Закусочка",
+  "soups": "Первые блюда",
+  "sauce": "Соусы",
+  "nationalD": "Национальная кухня",
+  "hotApp": "Горячие закуски",
+  "onGrill": "Блюда на открытом огне",
+  "sDish": "Гарниры",
+  "des": "Десерты",
+
   "salads": [
     {
       "id": 1,
       "name": "Шакар об",
+      "description": "(помидоры, лук, базилик, растительное масло)",
       "price": 30000,
       "img": "./img/menu/salads/1.jpg"
     },
     {
       "id": 2,
       "name": "Хрустящие баклажаны с томатами черри",
+      "description": "",
       "price": 40000,
       "img": "./img/menu/salads/2.jpg"
     },
     {
       "id": 3,
       "name": "Рулеты из баклажанов",
+      "description": "",
       "price": 45000,
       "img": "./img/menu/salads/3.jpg"
     },
     {
       "id": 4,
       "name": "Куриное филе в апельсиновом соусе",
+      "description": "",
       "price": 40000,
       "img": "./img/menu/salads/4.jpg"
     },
     {
       "id": 5,
       "name": "Салат Греческий",
+      "description": "",
       "price": 45000,
       "img": "./img/menu/salads/5.jpg"
     },
     {
       "id": 6,
       "name": "Весенняя Бухара",
+      "description": "",
       "price": 35000,
       "img": "./img/menu/salads/6.jpg"
     },
     {
       "id": 7,
       "name": "Салат Цезарь",
+      "description": "",
       "price": 50000,
       "img": "./img/menu/salads/7.jpg"
     },
     {
       "id": 8,
       "name": "Микс салат с языком",
+      "description": "",
       "price": 55000,
       "img": "./img/menu/salads/8.jpg"
+    }
+  ],
+
+  "appetizers": [
+    {
+      "id": 1,
+      "name": "Свежая овощная нарезка",
+      "description": "",
+      "price": 45000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Мясная нарезка",
+      "description": "",
+      "price": 190000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Сырное ассорти",
+      "description": "",
+      "price": 110000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Ассорти из солений",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Рулетики из баклажанов",
+      "description": "",
+      "price": 45000,
+      "img": "./img/menu/salads/3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Хоровац из баклажанов",
+      "description": "",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 7,
+      "name": "Чакка",
+      "description": "",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "soup": [
+    {
+      "id": 1,
+      "name": "Шурпа в горшочке",
+      "description": "",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Окрошка мясная",
+      "description": "",
+      "price": 20000,
+      "img": "./img/menu/salads/9.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Окрошка овощная",
+      "description": "",
+      "price": 20000,
+      "img": "./img/menu/salads/9.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Суп с фрикадельками",
+      "price": 25000,
+      "img": "./img/menu/first_course/3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Мастава",
+      "price": 25000,
+      "img": "./img/menu/first_course/4.jpg"
+    }
+  ],
+  "sauces": [
+    {
+      "id": 1,
+      "name": "Тар-Тар",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Сливочно-Горчичный",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Сливочно-Чесночный",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Томатно-Чесночный",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "national": [
+    {
+      "id": 1,
+      "name": "Манты с мясом",
+      "price": 35000,
+      "img": "./img/menu/second_course/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Манты с тыквой",
+      "price": 25000,
+      "img": "./img/menu/second_course/2.jpg"
+    },
+
+    {
+      "id": 3,
+      "name": "Жиз по уйгурски",
+      "price": 230000,
+      "img": "./img/menu/second_course/6.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Лагман по уйгурски",
+      "price": 40000,
+      "img": "./img/menu/second_course/12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ковурма лагман",
+      "price": 40000,
+      "img": "./img/menu/second_course/11.jpg"
+    },
+
+    {
+      "id": 6,
+      "name": "Жиз по Бухарски",
+      "price": 220000,
+      "img": "./img/menu/second_course/13.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Люля кебаб с картошкой фри",
+      "price": 50000,
+      "img": "./img/menu/first_course/5.jpg"
     },
     {
       "id": 9,
-      "name": "Окрошка мясная",
+      "name": "Оши Софи",
+      "description": "",
+      "price": 55000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 10,
+      "name": "Шивит оши",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/second_course/14.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Кайиш с подливой",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/first_course/1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Дымляма из Судака",
+      "price": 50000,
+      "img": "./img/menu/second_course/15.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Курутоба",
+      "description": "",
+      "price": 60000,
+      "img": "./img/menu/first_course/2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Каду Барак",
+      "description": "",
+      "price": 25000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 15,
+      "name": "Чучвара с подливой",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "hotAppetizers": [
+    {
+      "id": 1,
+      "name": "Бичак со шпинатом",
+      "description": "",
+      "price": 25000,
+      "img": "./img/menu/chebr/3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Бичак с мясом",
+      "description": "",
+      "price": 30000,
+      "img": "./img/menu/chebr/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Долма",
+      "description": "",
+      "price": 35000,
+      "img": "./img/menu/second_course/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Самса с мясом (Большая)",
+      "description": "puff pastry, beef meat, onion",
+      "price": 12000,
+      "img": "./img/menu/chebr/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Самса с мясом (Маленькая)",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/chebr/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Чебуреки с мясом",
+      "description": "",
+      "price": 25000,
+      "img": "./img/menu/chebr/1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Кутабы с зеленью и сыром",
+      "description": "",
       "price": 20000,
-      "img": "./img/menu/salads/9.jpg"
+      "img": "./img/menu/chebr/6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Жареные Пельмени",
+      "description": "dough, ground beef, onion",
+      "price": 20000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "dishesOnTheGrill": [
+    {
+      "id": 1,
+      "name": "Шашлык Говяжье Бон (250гр)",
+      "description": "",
+      "price": 65000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Шашлык из Баранины (250гр)",
+      "description": "",
+      "price": 55000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Шашлык говяжий с овощами на гриле",
+      "price": 55000,
+      "img": "./img/menu/second_course/10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Шашлык из куриного филе с овощами на гриле",
+      "price": 40000,
+      "img": "./img/menu/second_course/7.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Молотый шашлык с овощами на гриле",
+      "price": 50000,
+      "img": "./img/menu/second_course/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Шашлык из Куриных Бедрышек",
+      "description": "",
+      "price": 45000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 7,
+      "name": "Стриплойн из Мраморной Говодяны",
+      "price": 140000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 8,
+      "name": "Колбаски говяжьи",
+      "price": 60000,
+      "img": "./img/menu/second_course/9.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Колбаски куриные с сыром",
+      "price": 60000,
+      "img": "./img/menu/second_course/4.jpg"
+    },
+
+    {
+      "id": 10,
+      "name": "Форель на мангале",
+      "price": 110000,
+      "img": "./img/menu/second_course/8.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Овощи на Гриле",
+      "description": "",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "sideDishes": [
+    {
+      "id": 1,
+      "name": "Рис с Овощами",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Картошка по Деревенски",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Картошка Фри",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Сладкая Кукуруза",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Зеленый Горошек",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 6,
+      "name": "Тушеная капуста",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "Dessert": [
+    {
+      "id": 1,
+      "name": "Фруктовое ассорти",
+      "price": 100000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Брауни",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Чиз-Кейк",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Меренговый рулет",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Медовик",
+      "price": 28000,
+      "img": "./img/menu/default.png"
     }
   ]
 }

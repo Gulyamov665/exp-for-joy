@@ -30,8 +30,7 @@ function Header() {
                 ? styles.selected_lang_en
                 : styles.selected_lang_ru
             }
-          >
-          </div>
+          ></div>
           <ul style={dropDown ? { display: 'block' } : { display: 'none' }}>
             <li>
               <a

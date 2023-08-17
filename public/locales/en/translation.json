@@ -1,58 +1,491 @@
 {
+  "salad": "Salads",
+  "appetaizer": "Appetizers",
+  "soups": "Soups",
+  "sauce": "Sauces",
+  "nationalD": "National Dishes",
+  "hotApp": "Hot Appetizers",
+  "onGrill": "Dishes on The Grill",
+  "sDish": "Side Dishes",
+  "des": "Desserts",
   "salads": [
     {
       "id": 1,
       "name": "Shakar Ob",
+      "description": "(tomato, onion, basil, vegetable oil)",
       "price": 30000,
       "img": "./img/menu/salads/1.jpg"
     },
     {
       "id": 2,
       "name": "Crispy eggplants with cherry tomatoes",
+      "description": "(teggplant, tomato, arugula, teriyaki sauce, orange sauce)",
       "price": 40000,
       "img": "./img/menu/salads/2.jpg"
     },
-    {
-      "id": 3,
-      "name": "Eggplant rolls",
-      "price": 45000,
-      "img": "./img/menu/salads/3.jpg"
-    },
+
     {
       "id": 4,
       "name": "Chicken fillet in orange sauce",
+      "description": "(orange, chiken fillet, mix salad, sauce)",
       "price": 40000,
       "img": "./img/menu/salads/4.jpg"
     },
     {
       "id": 5,
-      "name": "Greek salad",
+      "name": "Greek with feta",
+      "description": "(cucumbers, tomato, paprika, feta cheese, black olive oil, onion)",
       "price": 45000,
       "img": "./img/menu/salads/5.jpg"
     },
     {
       "id": 6,
       "name": "Spring Bukhara",
+      "description": "(cabbage, tomato, lemon, onion, parsley, cucumber, spices)",
       "price": 35000,
       "img": "./img/menu/salads/6.jpg"
     },
     {
       "id": 7,
-      "name": "Caesar salad",
+      "name": "Caesar classic",
+      "description": "(iceberg cabbage, sauce, chiken breast, tomato, parmesan cheese)",
       "price": 50000,
       "img": "./img/menu/salads/7.jpg"
     },
     {
       "id": 8,
       "name": "Mix salad with tongue",
+      "description": "(tongue, mix salad, ginger sauce, quail egg, tomato, parmeasn cheese)",
       "price": 55000,
       "img": "./img/menu/salads/8.jpg"
+    }
+  ],
+  "appetizers": [
+    {
+      "id": 1,
+      "name": "Fresh vegetable plate",
+      "description": "(Tomato, cucumber, radish, greens mix)",
+      "price": 45000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Meat plate",
+      "description": "(Beff roll, tongue, chicken roll, horse meat roll)",
+      "price": 190000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Cheese assorted",
+      "description": "(Mazdam cheese, dor blue cheese, parmesan cheese, camembert, honey, walnut)",
+      "price": 110000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Assorted pickles",
+      "description": "(cucumbers, tomato, sauerkraut, mushrooms)",
+      "price": 40000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Eggplant rolls",
+      "description": "(eggplant, mayonnaise, garlic, batter, tomato, herbs)",
+      "price": 45000,
+      "img": "./img/menu/salads/3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Hovorac with brinza cheese",
+      "description": "(eggplant, tomato, paprika,garlic, herbs, pita bread, cheese)",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 7,
+      "name": "Chakka",
+      "description": "(Bukhara fermented milk product)",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "soup": [
+    {
+      "id": 1,
+      "name": "Beef soup",
+      "description": "beef broth, potatoes, carrots, beef brisket",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Okroshka meat",
+      "description": "sour drink made from fermented milk, cucumbers, boiled beef meat, egg, greens",
+      "price": 20000,
+      "img": "./img/menu/salads/9.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Okroshka vegetable",
+      "description": "fermented milk products with cucumber and tomatoes with herbs",
+      "price": 20000,
+      "img": "./img/menu/salads/9.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Soup with meet balls",
+      "description": "beef broth, potatoes, carrots, meet balls, noodles",
+      "price": 25000,
+      "img": "./img/menu/first_course/3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mastava",
+      "price": 25000,
+      "img": "./img/menu/first_course/4.jpg"
+    }
+  ],
+
+  "sauces": [
+    {
+      "id": 1,
+      "name": "Tartar sauce",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Creamy Mustard",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Creamy Garlic",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Tomato Garlic",
+      "description": "",
+      "price": 10000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+
+  "national": [
+    {
+      "id": 1,
+      "name": "Manti with meat",
+      "description": "dough, meat, onion",
+      "price": 35000,
+      "img": "./img/menu/second_course/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Manti with pumpkin",
+      "description": "dough, pumpkin, onion",
+      "price": 25000,
+      "img": "./img/menu/second_course/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fried meat with vegetables",
+      "description": "fried beef meat, paprika, cucumbers, tomato, green onion, onion",
+      "price": 115000,
+      "img": "./img/menu/second_course/6.jpg"
+    },
+
+    {
+      "id": 4,
+      "name": "Uyghur lagman",
+      "description": "Uzbek noodles,meat sauce with vegetables",
+      "price": 40000,
+      "img": "./img/menu/second_course/12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kovurma lagman",
+      "description": "Uzbek noodles, tomato paste, onion, beef meat, egg",
+      "price": 40000,
+      "img": "./img/menu/second_course/11.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Fried lamb",
+      "description": "roasted young lamb",
+      "price": 110000,
+      "img": "./img/menu/second_course/13.jpg"
+    },
+
+    {
+      "id": 8,
+      "name": "Lula kebab",
+      "description": "minced meat, french fries, onion",
+      "price": 50000,
+      "img": "./img/menu/first_course/5.jpg"
     },
     {
       "id": 9,
-      "name": "Okroshka meat",
+      "name": "Bukhara pilaf",
+      "description": "rice, carrots, vegetable oil, onionm, beef meat, spices",
+      "price": 55000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 10,
+      "name": "Shivit oshi",
+      "description": "noodles, gravy with vegetables and beef meat",
+      "price": 40000,
+      "img": "./img/menu/second_course/14.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Kayish",
+      "description": "thin dough, with vegetables and meat greavy",
+      "price": 40000,
+      "img": "./img/menu/first_course/1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Dimlama from zander fish",
+      "description": "pike perch fillet, tomato,onion, spices",
+      "price": 50000,
+      "img": "./img/menu/second_course/15.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Kurutoba",
+      "description": "puff bread, fermented milk, beef",
+      "price": 60000,
+      "img": "./img/menu/first_course/2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Kadu barak",
+      "description": "uzbek ravioli with pumpkin",
+      "price": 25000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 15,
+      "name": "Dumplins with gravy",
+      "description": "meat dumplings with vegetable sauce",
+      "price": 40000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "hotAppetizers": [
+    {
+      "id": 1,
+      "name": "Bichak with spinach",
+      "description": "fried dough with spinach",
+      "price": 25000,
+      "img": "./img/menu/chebr/3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bichak with meat",
+      "description": "fried dough with beef meat",
+      "price": 30000,
+      "img": "./img/menu/chebr/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dolma",
+      "description": "grape leaves, ground beef, rice, spices, sour cream",
+      "price": 35000,
+      "img": "./img/menu/second_course/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Samsa with meat",
+      "description": "puff pastry, beef meat, onion",
+      "price": 12000,
+      "img": "./img/menu/chebr/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Samsa with meat",
+      "description": "puff pastry, potatoes, onions",
+      "price": 10000,
+      "img": "./img/menu/chebr/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chebureks with meat",
+      "description": "fried dough, ground beef, onion",
+      "price": 25000,
+      "img": "./img/menu/chebr/1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kutab with spinach and cheese",
+      "description": "fried dough, cheese, onion, spinach",
       "price": 20000,
-      "img": "./img/menu/salads/9.jpg"
+      "img": "./img/menu/chebr/6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Fried dumplings",
+      "description": "dough, ground beef, onion",
+      "price": 20000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "dishesOnTheGrill": [
+    {
+      "id": 1,
+      "name": "Skewers of tenderloin meat",
+      "description": "beef tenderloin, grilled vegetables",
+      "price": 65000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Lamb shish kebab",
+      "description": "lamb, grilled vegetables",
+      "price": 55000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Beef kebab",
+      "description": "ground beef, grilled vegetables",
+      "price": 55000,
+      "img": "./img/menu/second_course/10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken fillet kebab",
+      "description": "chikcen fillet, grilled vegetables",
+      "price": 40000,
+      "img": "./img/menu/second_course/7.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ground kebab",
+      "description": "ground beef, grilled vegetables",
+      "price": 50000,
+      "img": "./img/menu/second_course/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken thigh skewers",
+      "description": "chicken thighs, grilled vegetables",
+      "price": 45000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 7,
+      "name": "Marble beef striploin steak",
+      "price": 140000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 8,
+      "name": "Beef sausages",
+      "description": "beef sausages, stewed cabbage",
+      "price": 60000,
+      "img": "./img/menu/second_course/9.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chicken sausages with cheese",
+      "description": "chicken sausages, grilled vegetables",
+      "price": 60000,
+      "img": "./img/menu/second_course/4.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Trout on the grill",
+      "description": "trout fish, grilled vegetables",
+      "price": 110000,
+      "img": "./img/menu/second_course/8.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Grilled vegetables",
+      "description": "eggplant, zucchini, tomato, paprika",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "sideDishes": [
+    {
+      "id": 1,
+      "name": "Rice with vegetables",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Village potato",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "French fries",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Sweet corn",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Green peas",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 6,
+      "name": "Braised cabbage",
+      "price": 15000,
+      "img": "./img/menu/default.png"
+    }
+  ],
+  "Dessert": [
+    {
+      "id": 1,
+      "name": "Assorted fruit",
+      "price": 100000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 2,
+      "name": "Brownie",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 3,
+      "name": "Cheescake",
+      "price": 35000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 4,
+      "name": "Meringue roll",
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 5,
+      "name": "Honey cake",
+      "price": 28000,
+      "img": "./img/menu/default.png"
     }
   ]
 }

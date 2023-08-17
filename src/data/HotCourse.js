@@ -19,13 +19,13 @@ const hot = [
   },
   {
     id: 4,
-    name: 'Сомса с мясом (Большой)',
+    name: 'Самса с мясом (Большой)',
     price: 12000,
     img: './img/menu/chebr/4.jpg',
   },
   {
     id: 5,
-    name: 'Сомса с мясом (Маленький)',
+    name: 'Самса с мясом (Маленький)',
     price: 8000,
     img: './img/menu/chebr/5.jpg',
   },

@@ -8,6 +8,13 @@ import SaladsCard from '../Card/SaladsCard'
 import FirstCourse from '../Card/FirstCourse'
 import SecondCourse from '../Card/SecondCourse'
 import Hot from '../Card/Hot'
+import Grill from '../Card/Grill'
+import Appetizers from '../Card/Appetizers'
+import Souces from '../Card/Souces'
+import SideDishes from '../Card/SideDishes'
+import Deserts from '../Card/Deserts'
+import { useTranslation } from 'react-i18next'
+
 
 export default function Slick() {
   const [toggleState, setToggleState] = useState(1)
@@ -15,6 +22,7 @@ export default function Slick() {
   const toggleTab = (id) => {
     setToggleState(id)
   }
+  const { t, i18n } = useTranslation()
 
   const settings = {
     className: 'center',
@@ -59,25 +67,35 @@ export default function Slick() {
         <div>
           <Slider {...settings}>
             <div onClick={() => toggleTab(1)}>
-              <Button title="Салаты" />
+              <Button title={t('salad')} />
             </div>
-
+            <div onClick={() => toggleTab(6)}>
+              <Button title={t('appetaizer')} />
+            </div>
             <div onClick={() => toggleTab(2)}>
-              <Button title="Первые блюда" />
+              <Button title={t('soups')} />
+            </div>
+            <div onClick={() => toggleTab(7)}>
+              <Button title={t('sauce')} />
             </div>
             <div onClick={() => toggleTab(3)}>
-              <Button title="Вторые блюда" />
+              <Button title={t('nationalD')} />
             </div>
             <div onClick={() => toggleTab(4)}>
-              <Button title="Горячие закуски" />
+              <Button title={t('hotApp')} />
             </div>
-            <div>
-              <Button title="Напитки" />
+            <div onClick={() => toggleTab(5)}>
+              <Button title={t('onGrill')} />
+            </div>{' '}
+            <div onClick={() => toggleTab(8)}>
+              <Button title={t('sDish')} />
+            </div>{' '}
+            <div onClick={() => toggleTab(9)}>
+              <Button title={t('des')} />
             </div>
           </Slider>
         </div>
       </div>
-
       <div className={toggleState === 1 ? 'main' : 'no_active'}>
         <SaladsCard />
       </div>
@@ -89,6 +107,21 @@ export default function Slick() {
       </div>
       <div className={toggleState === 4 ? 'main' : 'no_active'}>
         <Hot />
+      </div>
+      <div className={toggleState === 5 ? 'main' : 'no_active'}>
+        <Grill />
+      </div>
+      <div className={toggleState === 6 ? 'main' : 'no_active'}>
+        <Appetizers />
+      </div>
+      <div className={toggleState === 7 ? 'main' : 'no_active'}>
+        <Souces />
+      </div>
+      <div className={toggleState === 8 ? 'main' : 'no_active'}>
+        <SideDishes />
+      </div>{' '}
+      <div className={toggleState === 9 ? 'main' : 'no_active'}>
+        <Deserts />
       </div>
     </div>
   )

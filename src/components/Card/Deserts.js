@@ -2,13 +2,13 @@ import React from 'react'
 import Card from './Card'
 import { useTranslation } from 'react-i18next'
 
-function SaladsCard() {
+export default function Deserts() {
   const { t } = useTranslation()
-  const saladsObj = t('salads', { returnObjects: true })
+  const Obj = t('Dessert', { returnObjects: true })
 
   return (
     <>
-      {saladsObj.map((obj, i) => (
+      {Obj.map((obj, i) => (
         <div key={i}>
           <Card
             title={obj.name}
@@ -22,5 +22,3 @@ function SaladsCard() {
     </>
   )
 }
-
-export default SaladsCard

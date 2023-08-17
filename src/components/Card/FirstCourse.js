@@ -1,5 +1,4 @@
 import React from 'react'
-import firstCourse from '../../data/FirstCourse'
 import Card from './Card'
 import { useTranslation } from 'react-i18next'
 

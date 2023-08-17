@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card'
-import hot from '../../data/HotCourse'
 import { useTranslation } from 'react-i18next'
 
 

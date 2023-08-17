@@ -10,6 +10,25 @@ export default function Footer() {
         <br />
         contact@example.com
         <br />
+        <br />
+        <a href="https://www.tripadvisor.ru/UserReviewEdit-g303936-d25439623-JOY_Chaikhana_Lounge-Bukhara_Bukhara_Province.html#">
+          <img
+            className={styles.img}
+            width={50}
+            height={50}
+            src={'./img/project_images/tripadvisor.png'}
+            alt="tripadvisor"
+          />
+        </a>
+        <a href="https://instagram.com/joy.bukhara?igshid=MzRlODBiNWFlZA==">
+          <img
+            className={styles.img}
+            width={50}
+            height={50}
+            src={'./img/project_images/instagram.png'}
+            alt="tripadvisor"
+          />
+        </a>
       </div>
 
       <div className={styles.w_days}>

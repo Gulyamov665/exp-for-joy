@@ -1,13 +1,16 @@
 {
-  "salad": "Salads",
-  "appetaizer": "Appetizers",
-  "soups": "Soups",
-  "sauce": "Sauces",
-  "nationalD": "National Dishes",
-  "hotApp": "Hot Appetizers",
-  "onGrill": "Dishes on The Grill",
-  "sDish": "Side Dishes",
-  "des": "Desserts",
+  "navbar": {
+    "salad": "Salads",
+    "appetaizer": "Appetizers",
+    "soups": "Soups",
+    "sauce": "Sauces",
+    "nationalD": "National Dishes",
+    "hotApp": "Hot Appetizers",
+    "onGrill": "Dishes on The Grill",
+    "sDish": "Side Dishes",
+    "des": "Desserts"
+  },
+
   "salads": [
     {
       "id": 1,

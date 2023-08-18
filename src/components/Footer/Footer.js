@@ -29,7 +29,7 @@ export default function Footer() {
             alt="tripadvisor"
           />
         </a>
-        <a href="">
+        <a href="https://maps.google.com/maps?q=39.772381,64.419496&ll=39.772381,64.419496&z=16">
           <img
             className={styles.img}
             width={40}

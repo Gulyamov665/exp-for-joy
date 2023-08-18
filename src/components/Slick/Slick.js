@@ -67,31 +67,31 @@ export default function Slick() {
         <div>
           <Slider {...settings}>
             <div onClick={() => toggleTab(1)}>
-              <Button title={t('salad')} />
+              <Button title={t('navbar.salad')} />
             </div>
             <div onClick={() => toggleTab(6)}>
-              <Button title={t('appetaizer')} />
+              <Button title={t('navbar.appetaizer')} />
             </div>
             <div onClick={() => toggleTab(2)}>
-              <Button title={t('soups')} />
+              <Button title={t('navbar.soups')} />
             </div>
             <div onClick={() => toggleTab(7)}>
-              <Button title={t('sauce')} />
+              <Button title={t('navbar.sauce')} />
             </div>
             <div onClick={() => toggleTab(3)}>
-              <Button title={t('nationalD')} />
+              <Button title={t('navbar.nationalD')} />
             </div>
             <div onClick={() => toggleTab(4)}>
-              <Button title={t('hotApp')} />
+              <Button title={t('navbar.hotApp')} />
             </div>
             <div onClick={() => toggleTab(5)}>
-              <Button title={t('onGrill')} />
+              <Button title={t('navbar.onGrill')} />
             </div>{' '}
             <div onClick={() => toggleTab(8)}>
-              <Button title={t('sDish')} />
+              <Button title={t('navbar.sDish')} />
             </div>{' '}
             <div onClick={() => toggleTab(9)}>
-              <Button title={t('des')} />
+              <Button title={t('navbar.des')} />
             </div>
           </Slider>
         </div>

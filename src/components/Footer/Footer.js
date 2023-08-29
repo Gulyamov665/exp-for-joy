@@ -5,10 +5,9 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.adress}>
-        Ул.Гаукушан, Г.Бухара <br />
-        998-93-6213333
+        Adress: Sarafon 2, Buxoro <br />
+        Contacts: +998881830200
         <br />
-        contact@example.com
         <br />
         <br />
         <a href="https://www.tripadvisor.ru/UserReviewEdit-g303936-d25439623-JOY_Chaikhana_Lounge-Bukhara_Bukhara_Province.html#">
@@ -41,13 +40,11 @@ export default function Footer() {
       </div>
 
       <div className={styles.w_days}>
-        Monday-Friday: 9AM-9PM
+        Monday-Friday: 11:00 - 23:00
         <br />
-        Saturday: 9AM - 11PM
+        Saturday: 11:00 - 23:00
         <br />
-        Sunday: 9AM - 11PM
-        <br />
-        Happy Hours: 9AM - 12AM
+        Sunday: 11:00 - 23:00
         <br />
       </div>
     </div>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
 .parent {
   display: grid;
   grid-template-columns: repeat(1, 1fr);

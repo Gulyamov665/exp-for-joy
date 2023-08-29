@@ -47,6 +47,19 @@ export default function Footer() {
         Sunday: 11:00 - 23:00
         <br />
       </div>
+
+      <div className={styles.powered}>
+        <p className="text-light">
+          <span className={styles.linkText}>Powered by</span>
+          <a className={styles.links} href="https://t.me/mgulyamov">
+            Gulyamov
+          </a>
+          <span className={styles.linkText}>and</span>
+          <a className={styles.links} href="https://t.me/Bomuratov">
+            Bomuratov
+          </a>
+        </p>
+      </div>
     </div>
   )
 }

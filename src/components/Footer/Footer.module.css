@@ -21,6 +21,25 @@
   color: white;
 }
 
+.powered {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 8px;
+}
+.linkText{
+  color: white;
+}
+
+.links{
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: #6cc8ff;
+}
+
 @media (max-width: 768px) {
   .adress {
     width: 100%;

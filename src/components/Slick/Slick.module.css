@@ -38,6 +38,6 @@ button {
 }
 @media (max-width: 450px) {
   .custom {
-    width: 300px;
+    width: 330px;
   }
 }

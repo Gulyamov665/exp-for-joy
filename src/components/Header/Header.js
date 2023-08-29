@@ -20,7 +20,6 @@ function Header() {
       <h4 className={styles.logo}>Joy Chaikhana</h4>
       <div style={{ display: 'flex', alignItems: 'center', marginRight: 10 }}>
         <div className={styles.contact}>
-          <h4>About</h4>
           <h4>Contacts</h4>
         </div>
         <div onClick={openDropDown} className={styles.lang_menu}>

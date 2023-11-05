@@ -40,7 +40,10 @@
   font-family: 'Bellota', cursive;
   font-size: 16px;
 }
-
+.titAndNew {
+  display: flex;
+  align-items: center;
+}
 .unfill {
   fill: white;
   stroke: black;
@@ -73,7 +76,6 @@
   border-radius: 50%;
   z-index: 12;
 }
-
 
 h1,
 p {

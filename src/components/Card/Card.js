@@ -35,8 +35,12 @@ function Card(props) {
           />
         </div>
         <div className={styles.div3}>
-          <p>{props.title}</p><br />
-          <b style={{textAlign: 'center'}}>{props.desc}</b>
+          <div className={styles.titAndNew}>
+            {props.new && <img width={30} height={30} style={{ paddingRight: '5px' }} src='./img/new.png' />}
+
+            <p>{props.title}</p><br />
+          </div>
+          <b style={{ textAlign: 'center' }}>{props.desc}</b>
           <div className={styles.grid}>
             <b>{props.price} UZS</b>
             <div className={styles.heart} onClick={onClickLike}>

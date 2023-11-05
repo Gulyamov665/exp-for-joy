@@ -15,48 +15,52 @@
     {
       "id": 1,
       "name": "Шакар об",
-      "description": "(помидоры, лук, базилик, растительное масло)",
-      "price": 30000,
+      "description": "",
+      "price": 35000,
       "img": "./img/menu/salads/1.jpg"
     },
     {
       "id": 2,
-      "name": "Хрустящие баклажаны с томатами черри",
+      "name": "Красный бархат",
       "description": "",
-      "price": 40000,
-      "img": "./img/menu/salads/2.jpg"
+      "price": 45000,
+      "img": "./img/menu/default.png",
+      "new": true
     },
     {
       "id": 3,
-      "name": "Рулеты из баклажанов",
+      "name": "Осенняя фантазия",
       "description": "",
-      "price": 45000,
-      "img": "./img/menu/salads/3.jpg"
+      "price": 50000,
+      "img": "./img/menu/default.png",
+      "new": true
     },
+    {
+      "id": 9,
+      "name": "Нежная мацарелла с руколой",
+      "description": "",
+      "price": 60000,
+      "img": "./img/menu/default.png"
+    },
+
     {
       "id": 4,
       "name": "Куриное филе в апельсиновом соусе",
       "description": "",
-      "price": 40000,
+      "price": 45000,
       "img": "./img/menu/salads/4.jpg"
     },
     {
       "id": 5,
-      "name": "Салат Греческий",
+      "name": "Салат греческий",
       "description": "",
       "price": 45000,
       "img": "./img/menu/salads/5.jpg"
     },
-    {
-      "id": 6,
-      "name": "Весенняя Бухара",
-      "description": "",
-      "price": 35000,
-      "img": "./img/menu/salads/6.jpg"
-    },
+
     {
       "id": 7,
-      "name": "Салат Цезарь",
+      "name": "Салат цезарь",
       "description": "",
       "price": 50000,
       "img": "./img/menu/salads/7.jpg"
@@ -67,22 +71,31 @@
       "description": "",
       "price": 55000,
       "img": "./img/menu/salads/8.jpg"
+    },
+
+    {
+      "id": 11,
+      "name": "Олевье с языком",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/default.png",
+      "new": true
     }
   ],
 
   "appetizers": [
     {
       "id": 1,
-      "name": "Свежая овощная нарезка",
+      "name": "Свежая овощная тарелка",
       "description": "",
-      "price": 45000,
+      "price": 60000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 2,
       "name": "Мясная нарезка",
       "description": "",
-      "price": 190000,
+      "price": 200000,
       "img": "./img/menu/default.png"
     },
     {
@@ -96,23 +109,18 @@
       "id": 4,
       "name": "Ассорти из солений",
       "description": "",
-      "price": 40000,
+      "price": 60000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 5,
-      "name": "Рулетики из баклажанов",
+      "name": "Селедка с картофелем",
       "description": "",
-      "price": 45000,
-      "img": "./img/menu/salads/3.jpg"
+      "price": 55000,
+      "img": "./img/menu/default.png",
+      "new": true
     },
-    {
-      "id": 6,
-      "name": "Хоровац из баклажанов",
-      "description": "",
-      "price": 35000,
-      "img": "./img/menu/default.png"
-    },
+
     {
       "id": 7,
       "name": "Чакка",
@@ -138,10 +146,11 @@
     },
     {
       "id": 3,
-      "name": "Окрошка овощная",
+      "name": "Манпар",
       "description": "",
-      "price": 20000,
-      "img": "./img/menu/salads/9.jpg"
+      "price": 25000,
+      "img": "./img/menu/default.png",
+      "new": true
     },
 
     {
@@ -189,48 +198,64 @@
   ],
   "national": [
     {
+      "id": 16,
+      "name": "Ханум",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/default.png",
+      "new": true
+    },
+    {
+      "id": 17,
+      "name": "Машкичири",
+      "description": "",
+      "price": 35000,
+      "img": "./img/menu/default.png",
+      "new": true
+    },
+    {
       "id": 1,
       "name": "Манты с мясом",
-      "price": 35000,
+      "price": 40000,
       "img": "./img/menu/second_course/1.jpg"
     },
     {
       "id": 2,
       "name": "Манты с тыквой",
-      "price": 25000,
+      "price": 30000,
       "img": "./img/menu/second_course/2.jpg"
     },
 
     {
       "id": 3,
-      "name": "Жиз по уйгурски",
-      "price": 230000,
+      "name": "Жиз по уйгурски (говядина) 500гр",
+      "price": 130000,
       "img": "./img/menu/second_course/6.jpg"
     },
 
     {
       "id": 4,
       "name": "Лагман по уйгурски",
-      "price": 40000,
+      "price": 45000,
       "img": "./img/menu/second_course/12.jpg"
     },
     {
       "id": 5,
       "name": "Ковурма лагман",
-      "price": 40000,
+      "price": 45000,
       "img": "./img/menu/second_course/11.jpg"
     },
 
     {
       "id": 6,
-      "name": "Жиз по Бухарски",
-      "price": 220000,
+      "name": "Жиз по Бухарски 500гр",
+      "price": 130000,
       "img": "./img/menu/second_course/13.jpg"
     },
     {
       "id": 8,
       "name": "Люля кебаб с картошкой фри",
-      "price": 50000,
+      "price": 65000,
       "img": "./img/menu/first_course/5.jpg"
     },
     {
@@ -242,30 +267,31 @@
     },
     {
       "id": 10,
-      "name": "Шивит оши",
+      "name": "Кайиш с подливой",
       "description": "",
-      "price": 40000,
-      "img": "./img/menu/second_course/14.jpg"
+      "price": 50000,
+      "img": "./img/menu/first_course/1.jpg"
     },
     {
       "id": 11,
-      "name": "Кайиш с подливой",
+      "name": "Кайиш с сузьмой",
       "description": "",
-      "price": 40000,
-      "img": "./img/menu/first_course/1.jpg"
+      "price": 35000,
+      "img": "./img/menu/default.png"
     },
     {
       "id": 12,
       "name": "Дымляма из Судака",
-      "price": 50000,
+      "price": 60000,
       "img": "./img/menu/second_course/15.jpg"
     },
     {
       "id": 13,
-      "name": "Курутоба",
+      "name": "Жареный судак 500гр",
       "description": "",
-      "price": 60000,
-      "img": "./img/menu/first_course/2.jpg"
+      "price": 100000,
+      "img": "./img/menu/default.png",
+      "new": true
     },
     {
       "id": 14,
@@ -280,6 +306,21 @@
       "description": "",
       "price": 40000,
       "img": "./img/menu/default.png"
+    },
+    {
+      "id": 18,
+      "name": "Чучвара со шпинатом",
+      "description": "",
+      "price": 40000,
+      "img": "./img/menu/default.png",
+      "new": true
+    },
+    {
+      "id": 19,
+      "name": "Бараньи семечки 500гр",
+      "description": "",
+      "price": 110000,
+      "img": "./img/menu/default.png"
     }
   ],
   "hotAppetizers": [
@@ -287,35 +328,50 @@
       "id": 1,
       "name": "Бичак со шпинатом",
       "description": "",
-      "price": 25000,
+      "price": 30000,
+      "img": "./img/menu/chebr/3.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Бичак с тыквой",
+      "description": "",
+      "price": 30000,
       "img": "./img/menu/chebr/3.jpg"
     },
     {
       "id": 2,
       "name": "Бичак с мясом",
       "description": "",
-      "price": 30000,
+      "price": 35000,
       "img": "./img/menu/chebr/2.jpg"
     },
+
     {
       "id": 3,
       "name": "Долма",
       "description": "",
-      "price": 35000,
+      "price": 40000,
       "img": "./img/menu/second_course/3.jpg"
     },
     {
       "id": 4,
-      "name": "Самса с мясом (Большая)",
-      "description": "puff pastry, beef meat, onion",
-      "price": 12000,
+      "name": "Самса с мясом",
+      "description": " ",
+      "price": 15000,
       "img": "./img/menu/chebr/4.jpg"
     },
     {
       "id": 5,
-      "name": "Самса с мясом (Маленькая)",
+      "name": "Самса с тыквой",
       "description": "",
-      "price": 10000,
+      "price": 12000,
+      "img": "./img/menu/chebr/5.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Самса с картошкой",
+      "description": "",
+      "price": 12000,
       "img": "./img/menu/chebr/5.jpg"
     },
     {
@@ -327,81 +383,90 @@
     },
     {
       "id": 7,
-      "name": "Кутабы с зеленью и сыром",
+      "name": "Кутабы с зеленью и брынзой",
       "description": "",
-      "price": 20000,
+      "price": 25000,
       "img": "./img/menu/chebr/6.jpg"
     },
     {
       "id": 8,
       "name": "Жареные Пельмени",
       "description": "dough, ground beef, onion",
-      "price": 20000,
+      "price": 25000,
       "img": "./img/menu/default.png"
     }
   ],
   "dishesOnTheGrill": [
     {
+      "id": 12,
+      "name": "Шашлык из печени (200гр)",
+      "description": "",
+      "price": 35000,
+      "img": "./img/menu/default.png",
+      "new": true
+    },
+    {
       "id": 1,
-      "name": "Шашлык Говяжье Бон (250гр)",
+      "name": "Шашлык Говяжье Бон (200гр)",
       "description": "",
       "price": 65000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 2,
-      "name": "Шашлык из Баранины (250гр)",
+      "name": "Шашлык из Баранины (200гр)",
       "description": "",
       "price": 55000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 3,
-      "name": "Шашлык говяжий с овощами на гриле",
+      "name": "Шашлык из говядины (200гр)",
       "price": 55000,
       "img": "./img/menu/second_course/10.jpg"
     },
     {
       "id": 4,
-      "name": "Шашлык из куриного филе с овощами на гриле",
-      "price": 40000,
+      "name": "Шашлык из куриного филе (200гр)",
+      "price": 45000,
       "img": "./img/menu/second_course/7.jpg"
     },
     {
       "id": 5,
-      "name": "Молотый шашлык с овощами на гриле",
-      "price": 50000,
+      "name": "Молотый шашлык (200гр)",
+      "price": 45000,
       "img": "./img/menu/second_course/5.jpg"
     },
     {
       "id": 6,
-      "name": "Шашлык из Куриных Бедрышек",
+      "name": "Шашлык из самсы",
       "description": "",
       "price": 45000,
-      "img": "./img/menu/default.png"
+      "img": "./img/menu/default.png",
+      "new": true
     },
     {
       "id": 7,
       "name": "Стриплойн из Мраморной Говодяны",
-      "price": 140000,
+      "price": 120000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 8,
-      "name": "Колбаски говяжьи",
+      "name": "Колбаски говяжьи (200гр)",
       "price": 60000,
       "img": "./img/menu/second_course/9.jpg"
     },
     {
       "id": 9,
-      "name": "Колбаски куриные с сыром",
+      "name": "Колбаски куриные с сыром (200гр)",
       "price": 60000,
       "img": "./img/menu/second_course/4.jpg"
     },
 
     {
       "id": 10,
-      "name": "Форель на мангале",
+      "name": "Форель на мангале (250гр)",
       "price": 110000,
       "img": "./img/menu/second_course/8.jpg"
     },
@@ -423,13 +488,13 @@
     {
       "id": 2,
       "name": "Картошка по Деревенски",
-      "price": 15000,
+      "price": 20000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 3,
       "name": "Картошка Фри",
-      "price": 15000,
+      "price": 20000,
       "img": "./img/menu/default.png"
     },
     {
@@ -467,19 +532,25 @@
     {
       "id": 3,
       "name": "Чиз-Кейк",
-      "price": 35000,
+      "price": 40000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 4,
       "name": "Меренговый рулет",
-      "price": 30000,
+      "price": 35000,
       "img": "./img/menu/default.png"
     },
     {
       "id": 5,
       "name": "Медовик",
-      "price": 28000,
+      "price": 30000,
+      "img": "./img/menu/default.png"
+    },
+    {
+      "id": 6,
+      "name": "Сан Себастьян",
+      "price": 45000,
       "img": "./img/menu/default.png"
     }
   ]

@@ -15,6 +15,7 @@ function FirstCourse() {
             price={obj.price}
             img={obj.img}
             desc={obj.description}
+            new={obj.new}
             key={obj.id}
           />
         </div>
